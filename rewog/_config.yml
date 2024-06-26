@@ -1,0 +1,57 @@
+title: "Run easily Windows software with 1-click on Gnoppix Linux - secure and modern!"
+description: "Easily run Windows software on Gnoppix Linux!"
+author: "Gnoppix Developers"
+email: "gnoppix@gnoppix.com"
+logo: "/uploads/logo.svg?v4"
+
+assets: "/assets"
+uploads: "/uploads"
+
+permalink: "/blog/:title/"
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+navigation_left:
+  - link: "/about/"
+    name: "About"
+  - link: "/appstore/"
+    name: "Apps"
+  - link: "/download/"
+    name: "Download"
+  - link: "/provs/"
+    name: "Pro VS Core"
+  - link: "https://discord.com/invite/tmHjQmgBW9"
+    name: "Discord"
+  - link: "https://gnoppix.atlassian.net/wiki/x/ewAY"
+    name: "Member"
+  - link: "/blog/"
+    name: "News"
+    
+navigation_right:
+  - link: "https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/1605693/Gnoppix+AI"
+    name: "<b>AI</b>"
+    place: "right"
+  - link: "https://gnoppix.atlassian.net/wiki/spaces/GDP/overview"
+    name: "<ion-icon name=\"book-outline\"></ion-icon> Need Help?"
+    place: "right"
+  - link: "https://gnoppix.atlassian.net/servicedesk/customer/portal/1"
+    name: "<ion-icon name=\"bug-outline\"></ion-icon> Bug report"
+    place: "right"
+  - link: "https://search.gnoppix.org"
+    name: "<ion-icon name=\"language-outline\"></ion-icon> Search Engine"
+    place: "right"
+
+url: "https://www.gnoppix.org"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

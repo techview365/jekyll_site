@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+  Gnoppix components &sdot; Run easily Windows software with 1-click on Gnoppix Linux - secure and modern!
+</title>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/assets/css/style.css?v15"
+/>
+<link rel="shortcut icon" href="/uploads/bottles.png" type="image/png" />
+<!--<script src="/assets/js/scripts.js?v1"></script>-->
+<meta name="description" content="" />
+
+  <body class="page-provscore-components"> 
+    <nav id="nav">
+  <div class="container large">
+    <a class="brand" href="/"></a>
+    <ion-icon class="icon" name="menu-outline" id="toggle-menu"></ion-icon>
+    <div class="menu">
+      <ul>
+        
+          <li>
+            <a href="/about/" class="">About</a>
+          </li>
+        
+          <li>
+            <a href="/appstore/" class="">Apps</a>
+          </li>
+        
+          <li>
+            <a href="/download/" class="">Download</a>
+          </li>
+        
+          <li>
+            <a href="/provs/" class="">Pro VS Core</a>
+          </li>
+        
+          <li>
+            <a href="https://discord.com/invite/tmHjQmgBW9" class="">Discord</a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/x/ewAY" class="">Member</a>
+          </li>
+        
+          <li>
+            <a href="/blog/" class="">News</a>
+          </li>
+        
+      </ul>
+      <ul>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/1605693/Gnoppix+AI" class=""><b>AI</b></a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/overview" class=""><ion-icon name="book-outline"></ion-icon> Need Help?</a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/servicedesk/customer/portal/1" class=""><ion-icon name="bug-outline"></ion-icon> Bug report</a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/1409635/Join+Gnoppix" class=""><ion-icon name="language-outline"></ion-icon> Join Gnoppix</a>
+          </li>
+        
+        <li class="place-right">
+          <a class="button icon-slot" href="https://www.gnoppix.org/download/">
+            <ion-icon class="icon" name="cloud-download-outline"></ion-icon> Get Gnoppix</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<script>
+  var toggleMenu = document.getElementById('toggle-menu');
+  var nav = document.getElementById('nav');
+  toggleMenu.addEventListener('click', function() {
+    nav.classList.toggle('show-menu');
+  });
+</script>
+
+    <main class="animate__animated animate__fadeIn"><section class="heading">
+	<div class="container large">
+		<h1>Components</h1>
+		<p>These are essential elements for creating environments and extending them with new features and implementations.</p>
+	</div>
+</section>
+
+<section class="page">
+	<div class="container large">
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Category</th>
+					<th>Type</th>
+					<th>Channel</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody id="components">
+			</tbody>
+		</table>
+	</div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+<script>
+	var table = document.getElementById("components");
+	document.addEventListener("DOMContentLoaded", function () {
+		fetch('https://raw.githubusercontent.com/gnoppix/components/main/index.yml')
+  			.then(response => response.text())
+			.then((data) => {
+				console.info("Components database index found.");
+				data = jsyaml.load(data)
+				for (var item in data) {
+					component = data[item];
+
+					var row = table.insertRow(-1);
+					var name = row.insertCell(0);
+					var category = row.insertCell(1);
+					var type = row.insertCell(2);
+					var channel = row.insertCell(3);
+					var actions = row.insertCell(4);
+
+                    sub_category = component["Sub-category"] ? component["Sub-category"] : "n/a";
+                    sub_category_url = component["Sub-category"] ? `/${component["Sub-category"]}` : "";
+
+					name.innerHTML = `<b>${item}</b>`;
+					type.innerHTML = sub_category
+					channel.innerHTML = component["Channel"];
+					category.innerHTML = `<span class="tag tag-${component["Category"]}">${component["Category"]}</span>`;
+					actions.innerHTML = `\
+						<a href='https://github.com/gnoppix/components/blob/main/${component["Category"]}${sub_category_url}/${item}.yml'>Details</a> | \
+						<a href='https://github.com/gnoppix/components/issues/new/choose'>Report problem</a>`;
+				}
+			})
+			.catch(err => {
+				console.error("Failed to fetch Components database index!");
+				throw err
+			});
+	});
+</script>
+
+</main>
+    <footer>
+  <div class="container large">
+    <div class="grid cols-4">
+      <section>
+        <h4>About</h4>
+        <p>Gnoppix Linux is a free and open-source operating system that is designed to be a faster, more powerful, secure, and privacy-respecting alternative to Windows and macOS.</p>
+      </section>
+      <section>
+        <h4>Community</h4>
+        <ul>
+          <li><a href="//twitter.com/gnoppixlinux" tooltip="Twitter"><ion-icon class="icon" name="logo-twitter"></ion-icon>Twitter</a></li>
+          <li><a href="//discord.com/invite/tmHjQmgBW9" tooltip="Discord"><ion-icon class="icon" name="logo-discord"></ion-icon>Discord</a></li>
+          <li><a href="//github.com/gnoppix" tooltip="GitHub"><ion-icon class="icon" name="logo-github"></ion-icon>GitHub</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="//gnoppix.atlassian.net/wiki/spaces/GDP/overview" tooltip="Documentation">Documentation</a></li>
+          <li><a href="//gnoppix.atlassian.net/servicedesk/customer/portal/1" tooltip="Report a bug">Report a bug</a></li>
+          <li><a href="mailto:support@gnoppix.atlassian.net" tooltip="Send us a email">Email:support@gnoppix.atlassian.net</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Others</h4>
+        <ul>
+          <li><a href="//github.com/gnoppix/copyrights/blob/main/AGPL-3.0-or-later" tooltip="License">License (AGPL)</a></li>
+          <li><a href="//www.gnoppix.org/feed.xml" tooltip="RSS Feed">RSS Feed</a></li>
+          <li><a href="https://ko-fi.com/gnoppix/tiers" tooltip="Support Us">Support Us</a></li>
+        </ul>
+      </section>
+    </div>
+
+   <section>
+    <small><a href="https://github.com/bottlesdevs/Bottles" target="_blank" style=" justify-content: center; ">Thank you to the Gnoppix developers and the Bottles community for providing the original code and artwork for this website<b></b></a></small>
+   </section>
+ <br>
+ <br>
+The Gnoppix website does not use cookies, track your visits, or collect any of your data.
+<br>
+This means that you can browse the Gnoppix website without worrying about your privacy being compromised. Your personal information will not be collected or stored, and your browsing habits will not be tracked.
+<br>
+We are committed to protecting your privacy and providing you with a safe and secure browsing experience. 
+  </div>
+
+    <hr class="spacer" />
+
+  </div>
+</footer>
+
+  </body>
+</html>

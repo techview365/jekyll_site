@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+  AppStore &sdot; Run easily Windows software with 1-click on Gnoppix Linux - secure and modern!
+</title>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/assets/css/style.css?v15"
+/>
+<link rel="shortcut icon" href="/uploads/bottles.png" type="image/png" />
+<!--<script src="/assets/js/scripts.js?v1"></script>-->
+<meta name="description" content="" />
+
+  <body class="page-appstore"> 
+    <nav id="nav">
+  <div class="container large">
+    <a class="brand" href="/"></a>
+    <ion-icon class="icon" name="menu-outline" id="toggle-menu"></ion-icon>
+    <div class="menu">
+      <ul>
+        
+          <li>
+            <a href="/about/" class="">About</a>
+          </li>
+        
+          <li>
+            <a href="/appstore/" class="active">Apps</a>
+          </li>
+        
+          <li>
+            <a href="/download/" class="">Download</a>
+          </li>
+        
+          <li>
+            <a href="/provs/" class="">Pro VS Core</a>
+          </li>
+        
+          <li>
+            <a href="https://discord.com/invite/tmHjQmgBW9" class="">Discord</a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/x/ewAY" class="">Member</a>
+          </li>
+        
+          <li>
+            <a href="/blog/" class="">News</a>
+          </li>
+        
+      </ul>
+      <ul>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/1605693/Gnoppix+AI" class=""><b>AI</b></a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/overview" class=""><ion-icon name="book-outline"></ion-icon> Need Help?</a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/servicedesk/customer/portal/1" class=""><ion-icon name="bug-outline"></ion-icon> Bug report</a>
+          </li>
+        
+          <li>
+            <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/1409635/Join+Gnoppix" class=""><ion-icon name="language-outline"></ion-icon> Join Gnoppix</a>
+          </li>
+        
+        <li class="place-right">
+          <a class="button icon-slot" href="https://www.gnoppix.org/download/">
+            <ion-icon class="icon" name="cloud-download-outline"></ion-icon> Get Gnoppix</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<script>
+  var toggleMenu = document.getElementById('toggle-menu');
+  var nav = document.getElementById('nav');
+  toggleMenu.addEventListener('click', function() {
+    nav.classList.toggle('show-menu');
+  });
+</script>
+
+    <main class="animate__animated animate__fadeIn"><section class="heading">
+  <div class="container large center">
+    <h1>AppStore</h1>
+    <p>Running Windows application under Linux redefined</p>
+    <input class="store-search" type="search" autocomplete="off" placeholder="Epic Games Store" />
+  </div>
+</section>
+
+<section class="page">
+  <div class="container large">
+    <div class="warning">
+			<p>The 1-click and run feature is a core Gnoppix PRO feature that makes it easy to run Windows applications on Linux. It has just been released with Gnoppix PRO and we are just starting to populate this list. Do you want to <a href="https://discord.com/invite/tmHjQmgBW9">contribute</a>?</p>
+    </div>
+    <br />
+    <div class="filters">
+      <span class="tag grade-all active" grade="All">All</span>
+      <span class="tag grade-Platinum" grade="Platinum">Platinum</span>
+      <span class="tag grade-Gold" grade="Gold">Gold</span>
+      <span class="tag grade-Silver" grade="Silver">Silver</span>
+      <span class="tag grade-Bronze" grade="Bronze">Bronze</span>
+    </div>
+    <br />
+    <div class="store store-results">
+    </div>
+  </div>
+</section>
+
+<div class="modal" id="modal_installer"></div>
+<div class="modal" id="modal_review"></div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/obsidian.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/yaml.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+<script src="/assets/js/store-common.js"></script>
+
+<script>
+  document.querySelector('.store-search').addEventListener('keyup', function(e) {
+    var search = this.value.toLowerCase();
+    var cards = document.querySelectorAll('.store .card');
+    for (var i = 0; i < cards.length; i++) {
+      var card = cards[i];
+      var text = card.innerText.toLowerCase();
+      if (text.indexOf(search) > -1) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    }
+  });
+  document.querySelectorAll('.filters .tag').forEach(function(tag) {
+    tag.addEventListener('click', function(e) {
+      var grade = this.getAttribute('grade');
+      document.querySelectorAll('.filters .tag').forEach(function(tag) {
+        tag.classList.remove('active');
+      });
+      this.classList.add('active');
+      document.querySelectorAll('.store .card').forEach(function(card) {
+        if (grade == 'All') {
+          card.style.display = 'block';
+        } else {
+          if (card.getAttribute('grade') == grade) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+  var store = document.getElementsByClassName("store");
+  document.addEventListener("DOMContentLoaded", function () {
+    fetch('https://raw.githubusercontent.com/gnoppix/programs/main/index.yml')
+      .then(response => response.text())
+      .then((data) => {
+        console.info("Installers database index found.");
+        data = jsyaml.load(data)
+        for (var item in data) {
+          installer = data[item];
+          icon = `https://github.com/gnoppix/programs/blob/main/data/${item}/${installer["Icon"]}?raw=true`;
+          var card = `<div class="card" grade="${installer["Grade"]}">
+            <div class="card-content">
+              <div class="card-bg" style="background-image: url(${icon})"></div>
+              <h3>
+                <a href="/app#${item}">
+                  <img src="${icon}" alt="${item}" />
+                  ${installer["Name"]}
+                </a>
+              </h3>
+              <div class="dropdown">
+                <div class="toggler">
+                  <ion-icon class="icon" name="chevron-down-outline"></ion-icon>
+                </div>
+                <ul>
+                  <li>
+                    <a href='https://github.com/gnoppix/gnoppix/issues/new/choose' tooltip='Bug report'>
+                      <ion-icon class="icon" name="bug-outline"></ion-icon> <span>Bug report</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a onclick='modal("https://raw.githubusercontent.com/gnoppix/programs/main/${installer["Category"]}/${item}.yml")' tooltip='Show installer'>
+                      <ion-icon class="icon" name="code-outline"></ion-icon> <span>Show installer</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p>${installer["Description"]}</p>
+              <div class="tags">
+                <span class="tag grade-${installer["Grade"]}">${installer["Grade"]}</span>
+                <span class="tag tag-${installer["Category"]}">${installer["Category"]}</span>
+              </div>
+              <div class="actions">
+                <a href='https://docs.gnoppix.com/installers#use-installers' tooltip='How to install'> <!--gnoppix:${item}-->
+                  <ion-icon class="icon" name="download-outline"></ion-icon> Install
+                </a>
+              </div>
+            </div>
+          </div>`;
+          store[0].innerHTML += card;
+        }
+      })
+      .catch(err => {
+        console.error("Failed to fetch Installers database index!");
+        throw err
+      });
+  });
+</script>
+
+</main>
+    <footer>
+  <div class="container large">
+    <div class="grid cols-4">
+      <section>
+        <h4>About</h4>
+        <p>Gnoppix Linux is a free and open-source operating system that is designed to be a faster, more powerful, secure, and privacy-respecting alternative to Windows and macOS.</p>
+      </section>
+      <section>
+        <h4>Community</h4>
+        <ul>
+          <li><a href="//twitter.com/gnoppixlinux" tooltip="Twitter"><ion-icon class="icon" name="logo-twitter"></ion-icon>Twitter</a></li>
+          <li><a href="//discord.com/invite/tmHjQmgBW9" tooltip="Discord"><ion-icon class="icon" name="logo-discord"></ion-icon>Discord</a></li>
+          <li><a href="//github.com/gnoppix" tooltip="GitHub"><ion-icon class="icon" name="logo-github"></ion-icon>GitHub</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="//gnoppix.atlassian.net/wiki/spaces/GDP/overview" tooltip="Documentation">Documentation</a></li>
+          <li><a href="//gnoppix.atlassian.net/servicedesk/customer/portal/1" tooltip="Report a bug">Report a bug</a></li>
+          <li><a href="mailto:support@gnoppix.atlassian.net" tooltip="Send us a email">Email:support@gnoppix.atlassian.net</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Others</h4>
+        <ul>
+          <li><a href="//github.com/gnoppix/copyrights/blob/main/AGPL-3.0-or-later" tooltip="License">License (AGPL)</a></li>
+          <li><a href="//www.gnoppix.org/feed.xml" tooltip="RSS Feed">RSS Feed</a></li>
+          <li><a href="https://ko-fi.com/gnoppix/tiers" tooltip="Support Us">Support Us</a></li>
+        </ul>
+      </section>
+    </div>
+
+   <section>
+    <small><a href="https://github.com/bottlesdevs/Bottles" target="_blank" style=" justify-content: center; ">Thank you to the Gnoppix developers and the Bottles community for providing the original code and artwork for this website<b></b></a></small>
+   </section>
+ <br>
+ <br>
+The Gnoppix website does not use cookies, track your visits, or collect any of your data.
+<br>
+This means that you can browse the Gnoppix website without worrying about your privacy being compromised. Your personal information will not be collected or stored, and your browsing habits will not be tracked.
+<br>
+We are committed to protecting your privacy and providing you with a safe and secure browsing experience. 
+  </div>
+
+    <hr class="spacer" />
+
+  </div>
+</footer>
+
+  </body>
+</html>

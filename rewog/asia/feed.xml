@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://www.gnoppix.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.gnoppix.org/" rel="alternate" type="text/html" /><updated>2024-05-15T03:29:22+07:00</updated><id>https://www.gnoppix.org/feed.xml</id><title type="html">Run easily Windows software with 1-click on Gnoppix Linux - secure and modern!</title><subtitle>Easily run Windows software on Gnoppix Linux!</subtitle><author><name>Gnoppix Developers</name></author><entry><title type="html">Gnoppix Linux 24.4.15 Public Released</title><link href="https://www.gnoppix.org/blog/gnoppix-24-4-15/" rel="alternate" type="text/html" title="Gnoppix Linux 24.4.15 Public Released" /><published>2024-04-21T00:00:00+07:00</published><updated>2024-04-21T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-24-4-15</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-24-4-15/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-04-21 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<h1 id="gnoppix-24415">Gnoppix 24.4.15</h1>
+
+<p>As <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/52592728">announced</a> earlier, the next public release of Gnoppix is scheduled for May 1st., 2024. You’ll get it bit earlier, this month I’m traveling. This update focuses on as usual enhancing AI integration while prioritizing usability and, of course, your privacy. As requested, I’ve created video, my artistic skills are limited, I’ll do my best. If you would like help, learn or crete content please contact me, I can share what I know. <a href="https://youtu.be/wMoo2Ht_SXM?si=vWkDIe8JJG1gcwrf">Gnoppix@Youtube</a></p>
+
+<p>Release Notes in detail:</p>
+
+<p>Exciting Useability Enhancements:
+Image Description with Gnoppix GPT: Unleash the power of AI to understand your visuals! Upload an image and get a detailed description written by Gnoppix GPT. Enhance the experience with optional voice output – both for the AI-generated description and the GPT voice itself. This update takes voice interaction to a whole new level!</p>
+
+<p>Revolutionary Search: Say goodbye to endless scrolling! Gnoppix 24.4.15 introduces a revolutionary search experience. Ditch the old Google Search Engine Results Page (SERP) and embrace AI-powered summaries. These summaries condense deep web searches, providing key information and links to original sources for further exploration.</p>
+
+<p>Console Users: Simply type yay <your_search> in your terminal and Gnoppix will open your browser, taking you directly to the search results.
+AI Graphic Editor Integration: unleash your creativity with Krita, the AI-powered graphic editor! This update seamlessly integrates Krita with Gnoppix, allowing you to create and modify images with the assistance of AI.</your_search></p>
+
+<p>Fixes and Improvements:
+Enhanced Security:</p>
+
+<ul>
+  <li>
+    <p>This release prioritizes security with critical kernel and Firefox vulnerability patches.</p>
+  </li>
+  <li>
+    <p>Gnoppix GPT Improvements: Experience a more refined Gnoppix GPT with document analysis enhancements and major LLM engine upgrades.</p>
+  </li>
+  <li>
+    <p>Customization Options: Upload your own custom modules for even greater control over GPT functionality.</p>
+  </li>
+  <li>
+    <p>UI Cohesion: Enjoy a more cohesive user experience with the replacement of stable-diffusion with ConfyUI. This move paves the way for a more integrated UI across applications, unlocking potential cross-application benefits.</p>
+  </li>
+  <li>
+    <p>Expanded Functionality: Explore the possibilities of AI implementation in LibreOffice Writer and Calc with our test integration.</p>
+  </li>
+  <li>
+    <p>Installer Upgrade: Benefit from an improved AI installer (version 1.2.73).</p>
+  </li>
+  <li>
+    <p>Docker Hub Availability: Gnoppix LLM Engine is now available on Docker Hub: Docker</p>
+  </li>
+</ul>
+
+<p>We hope you enjoy this feature-packed update! As always, we appreciate your feedback and suggestions.</p>
+
+<h2 id="more-information">More Information:</h2>
+<ul>
+  <li><a href="https://youtu.be/wMoo2Ht_SXM?si=vWkDIe8JJG1gcwrf">Gnoppix@Youtube</a></li>
+  <li>AI Documentation <a href="https://gnoppix.atlassian.net/wiki/x/PYAY">links how to use the Gnoppix AI</a></li>
+  <li>Download: <a href="https://gnoppix.atlassian.net/wiki/x/HgAwAQ">Gnoppix download</a></li>
+  <li>File Details: <a href="http://archive.gnoppix.com/packages/24/devel-24.1.txt">Version Details</a></li>
+  <li><a href="https://discord.com/invite/tmHjQmgBW9">Gnoppix AI Discord</a></li>
+  <li>Demo Access to new AI UI incl. Gnoppix uncensored GPT, Image Creation, RAG and accessibility</li>
+  <li><a href="https://discord.com/channels/842660631776591872/1197744293452992532">Gnoppix Announcements</a></li>
+  <li><a href="https://www.x.com/gnoppixlinux">Gnoppix on Twitter</a></li>
+</ul>
+
+<p><img src="https://www.gnoppix.org/uploads/gnoppix_desktop800.png" alt="Gnoppix News" title="Gnoppix News" /></p>
+
+<h2 id="md5">MD5:</h2>
+
+<ul>
+  <li>Gnoppix core 24.4.16 XFCE x86: 6c17afcdb9cb858d5b59302824b4f127 (public download)</li>
+</ul>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux 24.4.15]]></summary></entry><entry><title type="html">Gnoppix Linux 24.3.15 Public Released</title><link href="https://www.gnoppix.org/blog/gnoppix-24-4/" rel="alternate" type="text/html" title="Gnoppix Linux 24.3.15 Public Released" /><published>2024-04-02T00:00:00+07:00</published><updated>2024-04-02T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-24-4</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-24-4/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-04-02 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<h1 id="gnoppix-24315">Gnoppix 24.3.15</h1>
+
+<p>As <a href="https://gnoppix.atlassian.net/wiki/x/DYBRAg">announced</a> earlier, the next public release of Gnoppix is scheduled for April 2nd, 2024. This update focuses on enhancing AI integration while prioritizing usability and, of course, your privacy.</p>
+
+<p>One of the biggest dangers of using commercial AI platforms is the potential exposure of your private data. Imagine your doctor’s files being analyzed – would you truly want such sensitive information shared?</p>
+
+<p>A friend who runs a company based in the EU expressed immense gratitude for our local AI solution. EU privacy laws restrict them from sharing data with third parties.</p>
+
+<p>Tired of AI outputs appearing only when you request security testing for private websites? Don’t be – Gnoppix offers an alternative to the ever-present feeling of “Big Brother watching you.”</p>
+
+<p>Does this mean you can’t leverage cutting-edge AI technologies? Absolutely not! Check out detailed changes: <a href="https://gnoppix.atlassian.net/wiki/x/DYBRAg">Gnoppix Changelog Wiki:</a> for more information.</p>
+
+<h2 id="more-information">More Information:</h2>
+<ul>
+  <li>AI Documentation <a href="https://gnoppix.atlassian.net/wiki/x/PYAY">links how to use the Gnoppix AI</a></li>
+  <li>Download: <a href="https://gnoppix.atlassian.net/wiki/x/HgAwAQ">Gnoppix download</a></li>
+  <li>File Details: <a href="http://archive.gnoppix.com/packages/24/devel-24.1.txt">Version Details</a></li>
+  <li><a href="https://discord.com/invite/tmHjQmgBW9">Gnoppix AI Discord</a></li>
+  <li>Demo Access to new AI UI incl. Gnoppix uncensored GPT, Image Creation, RAG and accessibility</li>
+  <li><a href="https://discord.com/channels/842660631776591872/1197744293452992532">Gnoppix Announcements</a></li>
+  <li><a href="https://www.x.com/gnoppixlinux">Gnoppix on Twitter</a></li>
+</ul>
+
+<p><img src="https://www.gnoppix.org/uploads/gnoppix_desktop800.png" alt="Gnoppix News" title="Gnoppix News" /></p>
+
+<h2 id="md5">MD5:</h2>
+
+<ul>
+  <li>Gnoppix core 24.3.15 XFCE x86: 236f00b68e3250cdb82aed688cff5d36 (public download)</li>
+</ul>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux 24.4]]></summary></entry><entry><title type="html">Gnoppix Linux 24.3</title><link href="https://www.gnoppix.org/blog/gnoppix-23-3/" rel="alternate" type="text/html" title="Gnoppix Linux 24.3" /><published>2024-02-28T00:00:00+07:00</published><updated>2024-02-28T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-23-3</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-23-3/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-02-28 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<h3 id="gnoppix-243-bug-fixes-visual-updates-and-a-new-community-project">Gnoppix 24.3: Bug Fixes, Visual Updates, and a New Community Project</h3>
+
+<p>We are pleased to announce the release of Gnoppix 24.3, a bugfix release focused on improving the overall user experience.</p>
+
+<h3 id="stability-and-bug-fixes">Stability and Bug Fixes:</h3>
+
+<p>This release lays a solid foundation with a stable base system, ensuring a smooth and reliable experience.</p>
+
+<h3 id="visual-enhancements">Visual Enhancements:</h3>
+<p>We’ve revamped the visual theme with a focus on modern aesthetics and usability.
+The icon theme has also been updated, providing a more cohesive look and feel.</p>
+
+<h3 id="new-community-project">New Community Project:</h3>
+<p>We’re excited to announce a new community project: the LXDE/LXQt Desktop. This lightweight desktop environment offers a fast and efficient user experience, making it a great option for older machines or users who prefer a simpler desktop environment.</p>
+
+<h3 id="live-updates">Live Updates:</h3>
+<p>All the changes introduced in Gnoppix 24.3 are available for existing users through live updates. This means you can easily upgrade your system without having to download and install a new ISO image.</p>
+
+<h3 id="upgrade-path">Upgrade Path:</h3>
+<p>Existing Gnoppix users can upgrade to 24.3 through the built-in package manager. We recommend backing up your important data before performing any upgrades.</p>
+
+<p>We encourage you to download Gnoppix 24.3 and experience the improvements for yourself. As always, we welcome your feedback and contributions to the Gnoppix project.</p>
+
+<ul>
+  <li>Download: <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/19922974/Download+Links">Gnoppix download</a></li>
+  <li>Gnoppix on Twitter: <a href="https://twitter.com/gnoppixlinux">Dont miss any news! Follow Gnoppix@Twitter</a></li>
+</ul>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux 24.3]]></summary></entry><entry><title type="html">Gnoppix Linux LXDE</title><link href="https://www.gnoppix.org/blog/gnoppix-lxde/" rel="alternate" type="text/html" title="Gnoppix Linux LXDE" /><published>2024-02-02T00:00:00+07:00</published><updated>2024-02-02T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-lxde</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-lxde/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-02-02 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<h2 id="project-lxde-unveils-a-featherweight-linux-desktop">Project LXDE Unveils a Featherweight Linux Desktop!</h2>
+
+<p>Buckle up, open-source enthusiasts! The vibrant Gnoppix community has just ignited the tech world with LXDE Desktop, a revolutionary initiative crafting a lightning-fast, resource-light desktop environment. This groundbreaking project promises to democratize access to powerful computing experiences, reaching users with limited resources and older machines.</p>
+
+<p>Imagine a Linux desktop that flies on even the most modest hardware. Picture a sleek, user-friendly interface that prioritizes speed and efficiency without sacrificing functionality. That’s the dream Project LXDE is making a reality. Built upon the LXDE desktop environment, renowned for its lightweight footprint, the project leverages the Gnoppix community’s expertise to deliver a custom-tailored experience.</p>
+
+<p>“We’re thrilled to unveil Project LXDE,” says mackblaze, who drives forward the development of the LXDE Desktop and it’s accessibility. “This project isn’t just about building a desktop; it’s about empowering everyone to enjoy the freedom and power of Linux, regardless of their hardware limitations.”</p>
+
+<h2 id="what-makes-project-lxde-so-electrifying">What makes Project LXDE so electrifying?</h2>
+
+<p>Blazing-fast performance: Say goodbye to sluggishness! Project LXDE is optimized for speed, ensuring a smooth and responsive experience on even the most resource-constrained systems.
+Minimal footprint: Running on minimal hardware requirements, Project LXDE opens the door to reviving old machines and extending their lifespan.
+Intuitive interface: The user-friendly LXDE desktop is known for its clean and uncluttered design, making it perfect for beginners and experienced users alike.
+Community-driven development: The heart and soul of Project LXDE lies in its collaborative spirit. The Gnoppix community welcomes contributions from developers and enthusiasts worldwide, fostering a vibrant ecosystem of innovation.
+Project LXDE is more than just a desktop; it’s a movement. It’s a testament to the power of open-source collaboration and the unwavering dedication of the Gnoppix community. With its focus on accessibility and performance, Project LXDE has the potential to revolutionize the way we experience computing, empowering users everywhere to unlock the full potential of their machines.</p>
+
+<p>Stay tuned for exciting updates! The Gnoppix community is actively developing Project LXDE, and regular progress reports will be shared through their official channels. Get ready to witness the rise of a lightweight Linux champion, poised to redefine the boundaries of computing accessibility!</p>
+
+<p>Join the Project LXDE revolution! Visit the Gnoppix website or social media channels to learn more, contribute your skills, and be part of this groundbreaking initiative.</p>
+
+<p>#ProjectLXDE #Gnoppix #OpenSource #Linux #Lightweight #Accessibility</p>
+
+<p><img src="https://www.gnoppix.org/uploads/gnoppix24-2.png" alt="Gnoppix News" title="Gnoppix News" />
+<sub><sub><sub> (c) Gnoppix Linux 24.2 - 2024 <a href="https://creativecommons.org/licenses/by-sa/4.0/">License CC BY-SA 4.0</a> <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<ul>
+  <li>Download: <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/19922974/Download+Links">Gnoppix download</a></li>
+  <li>Gnoppix on Twitter: <a href="https://twitter.com/gnoppixlinux">Dont miss any news! Follow Gnoppix@Twitter</a></li>
+</ul>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux LXDE Lighter Footprint]]></summary></entry><entry><title type="html">Gnoppix Linux 24.2 Released</title><link href="https://www.gnoppix.org/blog/gnoppix-24-2/" rel="alternate" type="text/html" title="Gnoppix Linux 24.2 Released" /><published>2024-01-29T00:00:00+07:00</published><updated>2024-01-29T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-24-2</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-24-2/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-01-29 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<p>We’re thrilled to announce the arrival of Gnoppix 24.2, an update packed with performance improvements, visual consistency, and rock-solid security. Get ready for a smoother, faster, and safer Gnoppix experience!</p>
+
+<h3 id="enhanced-security">Enhanced Security:</h3>
+
+<p>Peace of mind: We’ve incorporated the latest security patches to keep your system and data shielded from vulnerabilities. Enjoy surfing the web and exploring your digital world with confidence.</p>
+
+<h3 id="streamlined-design">Streamlined Design:</h3>
+
+<p>One look, one feel: Gnoppix 24.2 presents a unified visual experience. Artwork, menus, and panels have been meticulously standardized, leading to a more intuitive and cohesive desktop environment.
+Reduced RAM Usage:</p>
+
+<p>Say goodbye to sluggishness: We’ve significantly optimized Gnoppix’s memory consumption. By default, the system now operates on a mere 1GB of RAM at startup, delivering a noticeably snappier performance.</p>
+
+<h3 id="additional-highlights">Additional Highlights:</h3>
+
+<p>Performance tweaks: Under the hood, Gnoppix 24.2 boasts numerous optimizations for a smoother workflow and overall responsiveness.
+Bug fixes: We’ve diligently addressed various reported issues, ensuring a more stable and polished experience.
+Upgrade or Get Started Today:</p>
+
+<p>Current users: Update to Gnoppix 24.2 effortlessly through your package manager. Experience the improvements firsthand!
+Newcomers: Welcome! Head over to our website to download Gnoppix 24.2 and discover the joy of a lightweight, user-friendly, and secure Linux distribution.
+Gnoppix 24.2 marks a significant leap forward in our mission to deliver a delightful and efficient computing experience. We encourage you to explore the new features and witness the benefits of a streamlined Gnoppix.</p>
+
+<p>Together, let’s fly with Gnoppix!
+Gnoppix 24.2: Where security meets elegance, and the future of your desktop awaits.</p>
+
+<p><img src="https://www.gnoppix.org/uploads/gnoppix24-2.png" alt="Gnoppix News" title="Gnoppix News" />
+<sub><sub><sub> (c) Gnoppix Linux 24.2 - 2024 <a href="https://creativecommons.org/licenses/by-sa/4.0/">License CC BY-SA 4.0</a> <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<ul>
+  <li>Download: <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/19922974/Download+Links">Gnoppix download</a></li>
+  <li>Gnoppix on Twitter: <a href="https://twitter.com/gnoppixlinux">Dont miss any news! Follow Gnoppix@Twitter</a></li>
+</ul>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix 24.2 Soars into Action: Enhanced Security, Streamlined Design, and Lighter Footprint]]></summary></entry><entry><title type="html">Gnoppix Linux Gaming</title><link href="https://www.gnoppix.org/blog/gnoppix-gaming/" rel="alternate" type="text/html" title="Gnoppix Linux Gaming" /><published>2024-01-25T00:00:00+07:00</published><updated>2024-01-25T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-gaming</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-gaming/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-01-25 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<p>HDR gaming arrives on Gnoppix Linux with Proton 8.0-5: Dive into richer visuals for select games!</p>
+
+<p><img src="https://www.gnoppix.org/uploads/gnoppix_gaming_proton.jpg" alt="Gnoppix News" title="Gnoppix News" /></p>
+
+<p>Get ready for a stunning visual upgrade on Linux! Valve’s Proton compatibility layer has reached version 8.0-5, bringing long-awaited HDR support to select Windows games playable on Linux and Steam Deck.</p>
+
+<h2 id="experience-vibrant-worlds-in-hdr">Experience vibrant worlds in HDR:</h2>
+
+<p>Dive into breathtaking HDR visuals in popular titles like Resident Evil 2, 3, 7, and Village, Hogwarts Legacy, Mass Effect Legendary Edition, Injustice 2, Alan Wake 2, and Devil May Cry 5.</p>
+
+<h2 id="unlock-even-more-games-with-proton-80-5">Unlock even more games with Proton 8.0-5:</h2>
+
+<p>Assassin’s Creed Mirage, Grotesque Tactics: Evil Heroes, Welcome to Princeland, Red Tie Runner, and Simon the Sorcerer: 25th Anniversary Edition now join the playable roster through the stable Proton version.</p>
+
+<h2 id="improved-performance-and-fixes">Improved performance and fixes:</h2>
+
+<p>Enjoy smoother gameplay and bug fixes for Baldur’s Gate 3, Cyberpunk 2077, Forza Horizon 5, Starfield, Halo Infinite, and Witcher 3, among others.</p>
+
+<h2 id="full-screen-gaming-on-gnoppix-linux">Full-screen gaming on Gnoppix Linux:</h2>
+
+<p>Proton 8.0-5 now allows full-screen gaming on Gnoppix Linux with XFCE or KDE desktop environments, unlocking more options for Linux gamers.</p>
+
+<p>Ready to unleash HDR on your Linux journey?</p>
+
+<p>Grab the latest Gnoppix Version or just update and start experiencing the visual splendor of HDR gaming on Linux!</p>
+
+<p><a href="https://www.gnoppix.org/download/">Download Gnoppix for free:</a>
+<a href="https://www.samsung.com/africa_en/tvs/tv-buying-guide/what-is-hdr-tv/">More about HDR:</a>
+<a href="https://github.com/ValveSoftware/Proton/releases/tag/proton-8.0-5c">Valve Github:</a>
+<a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/1638495/Gnoppix+Core+Repository">Gnoppix Software Repo:</a></p>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[HDR Linux gaming arrives on Gnoppix Linux with Proton]]></summary></entry><entry><title type="html">Gnoppix Linux Emails</title><link href="https://www.gnoppix.org/blog/gnoppix-email/" rel="alternate" type="text/html" title="Gnoppix Linux Emails" /><published>2024-01-17T00:00:00+07:00</published><updated>2024-01-17T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-email</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-email/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-01-17 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<h1 id="gnoppix-member-email">Gnoppix Member Email</h1>
+
+<p>Gnoppix Member Email: Coming Soon to Your Inbox!</p>
+
+<p>Calling all Gnoppix members and Pro users! Get ready to ditch your old email and take control of your communications with our exclusive Gnoppix Member Email service!</p>
+
+<p><img src="https://www.gnoppix.org/uploads/gnoppix_email.jpg" alt="Gnoppix News" title="Gnoppix News" /></p>
+
+<p>We’re thrilled to announce the first test run of this exciting new feature. This means you can now use your own @gnoppix.com email address, bringing your Gnoppix experience to a whole new level of seamless integration.</p>
+
+<h2 id="heres-what-you-can-expect">Here’s what you can expect:</h2>
+
+<ul>
+  <li>
+    <p>A @gnoppix.com email address: Show your Gnoppix pride and personalize your digital presence.</p>
+  </li>
+  <li>
+    <p>Reliable and secure messaging: Enjoy robust email infrastructure built for speed and stability.</p>
+  </li>
+</ul>
+
+<p>Exclusive for Gnoppix members and Pro users: This test run is open to all Gnoppix members and those rocking the Gnoppix Pro subscription.</p>
+
+<h2 id="how-to-join-the-test-run">How to join the test run:</h2>
+
+<p>Send a email to support@gnoppix.atlassian.net which email, you would like to use, forwared to which email. Be aware there are some not useable handles.</p>
+
+<p>Is your inbox still a Gmail wasteland? Are you tired of ads following you around the internet, knowing things you barely even whispered to your phone? Don’t settle for privacy crumbs! <a href="https://tuta.com/">Join Tuta for free</a>, the world’s best email provider for privacy.</p>
+
+<p>Interested but not a member or Pro user? No problem! Learn more about how you can join the Gnoppix family and gain access to this exclusive service at <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/1572987/Gnoppix+Member">Gnoppix Member Pages</a></p>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux Free Email for Member]]></summary></entry><entry><title type="html">Gnoppix Linux 24.1.15 Released</title><link href="https://www.gnoppix.org/blog/gnoppix-24-1/" rel="alternate" type="text/html" title="Gnoppix Linux 24.1.15 Released" /><published>2024-01-16T00:00:00+07:00</published><updated>2024-01-16T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-24-1</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-24-1/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-01-16 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<h1 id="gnoppix-24115">Gnoppix 24.1.15</h1>
+
+<p>With 23 we moved away from beeing a liveCD only, Gnoppix 24 comes wth a new installation experience using the Calamares installer. This enables easier installation, specifying your own partition layout right in the installer,
+A ton of work has gone into the new installation experience, and we are glad to finally release it to everyone!</p>
+
+<h2 id="the-new-gnoppix-edition-includes">The new Gnoppix edition includes:</h2>
+
+<ul>
+  <li>XFCE version 4.18</li>
+  <li>Mousepad 0.6.1</li>
+  <li>Paole 4.18.0</li>
+  <li>Ristretto 0.13.1</li>
+  <li>Thunar 4.18.6</li>
+  <li>Whiskermenu 2.8.0</li>
+  <li>Office 7.6.4</li>
+  <li>Gnoppix Productivity 1.0.2</li>
+  <li>Gnoppix Secrity 0.3</li>
+  <li>Linux Kernel 6.6.11</li>
+  <li>Gnoppix Privacy 2.1</li>
+</ul>
+
+<p>Our XFCE edition features a traditional desktop layout with a bottom panel and Whiskermenu as the application menu. It is using the Qogir GTK theme (vinceliuice) with the Papirus icon theme for a sleek and modern look. Blueman comes installed for all of your Bluetooth needs. The impementation of the Gnoppix AI installer is completed too, you’ll be able install hundrets of AI tools with the 1-click option. This edition has taken a lot of work, and we are excited to share it with you all!</p>
+
+<p>To earn its privacy credentials the distro routes all Internet-bound traffic through the Tor anonymous network. Earlier, the distro used a launcher script to fetch the latest Tor release from the Internet, but now bundles it by default.</p>
+
+<p>In addition to the Tor browser, the distro also includes a couple of tools that are designed for use over the Tor network. There’s the anonymous file-sharing program called OnionShare and the Ricochet instant messaging client.</p>
+
+<p>Besides the Tor tools, the distro also has a few other privacy and security enhancing programs such as the Sweeper utility to clear the cache and temporary files, VeraCrypt encryption software and the Metadata Anonymisation Toolkit (MAT).</p>
+
+<ul>
+  <li>Download: <a href="https://gnoppix.atlassian.net/wiki/spaces/GDP/pages/19922974/Download+Links">Gnoppix download</a></li>
+  <li>Details: <a href="http://archive.gnoppix.com/packages/24/devel-24.1.txt">Version Details</a></li>
+</ul>
+
+<p><img src="https://www.gnoppix.org/uploads/gnoppix24-1.png" alt="Gnoppix News" title="Gnoppix News" /></p>
+
+<h2 id="md5">MD5:</h2>
+
+<ul>
+  <li>Gnoppix core 24.1.15 XFCE x86:  d69175025e5d5ed1c82a78480813e435</li>
+  <li>Gnoppix core 24.1.15 XFCE i386: 8fc4ea22632556bab1df3ff7c097a480</li>
+  <li>Gnoppix Devel 24.1.15 XFCE x86: d097e03074ea07759e56f3d31a349342</li>
+</ul>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux 24.1]]></summary></entry><entry><title type="html">Gnoppix Linux 24 - Lesson learned</title><link href="https://www.gnoppix.org/blog/gnoppix-linux-24-AI/" rel="alternate" type="text/html" title="Gnoppix Linux 24 - Lesson learned" /><published>2024-01-11T00:00:00+07:00</published><updated>2024-01-11T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/gnoppix-linux-24-AI</id><content type="html" xml:base="https://www.gnoppix.org/blog/gnoppix-linux-24-AI/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2024-01-11 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<p>It’s been a little late, but I was very busy starting the year.</p>
+
+<p>With the relaunch last year, a lot happened: we received a lot of feedback, things changed significantly, and we’re grateful for all your suggestions.</p>
+
+<p>The major change was moving away from Gnome to XFCE as our main and only supported desktop.</p>
+
+<p>Just a reminder, I’m looking for maintainers for KDE and Gnome desktops. Personally maintaining them myself is impossible. I need your help. (Direct ask for assistance, referencing XFCE as a model.)</p>
+
+<p>With a dedicated version, Gnoppix PRO and Gnoppix Membership, we hope to generate income to cover Gnoppix development costs.</p>
+
+<p>We released the LTS Gnoppix with 5 years of support.</p>
+
+<p>We found new sponsors who help continue the Gnoppix story.</p>
+
+<p>I was invited to several technology events, including Google, where I shared Gnoppix as an example of the open-source software way.</p>
+
+<p>I took on a mentor position to support young software developers and engineers.</p>
+
+<p>Bombarded with AI questions, I implemented an open-source AI chatbot, Gnoppix Stable Diffusion. Gnoppix 24 also introduces the Gnoppix AI installer, letting you install nearly 100 AI applications with just one click.</p>
+
+<p>I remain committed to supporting open-source AI in 2024. Open-source AI is like a shared recipe book for artificial intelligence, fostering collaboration, innovation, and trust. It democratizes access to powerful tools, making AI development quicker, cheaper, and more inclusive.</p>
+
+<p>Faster progress: More cooks in the kitchen mean faster innovation and problem-solving.</p>
+
+<p>Lower barriers: Open-source tools are free and accessible, empowering anyone to build with AI.</p>
+
+<p>Wider impact: AI benefits more people when it’s shared and adaptable.</p>
+
+<p>Trust and transparency: Openness fosters scrutiny and builds trust in AI’s workings.</p>
+
+<p>Responsible development: Open collaboration helps mitigate bias and promote ethical AI.</p>
+
+<p>Open-source AI is like a rising tide, lifting all boats. It’s a win-win for individuals, businesses, and society as a whole.</p>
+
+<p>With Gnoppix 24, we now have a stable, reproducible, and successful development process (from the source code) and can start optimizing and implementing features for you that are on our roadmap for 24.
+We will continue to provide you with a Linux desktop with a focus on your privacy and security.</p>
+
+<p>Special thanks to Hetzner, Sourceforge, Google, Tuta, and Evokehub for supporting Gnoppix with their services, manpower, and infrastructure.</p>
+
+<p>To download the latest desktop: https://sourceforge.net/projects/gnoppixng/files/releases/core/gnoppix-24_core_XFCE_desktop_amd64.iso/download</p>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux 24 Stable Diffusion AI ChatGPT]]></summary></entry><entry><title type="html">Gnoppix Linux Stable Diffusion AI</title><link href="https://www.gnoppix.org/blog/AI_censorship/" rel="alternate" type="text/html" title="Gnoppix Linux Stable Diffusion AI" /><published>2023-12-01T00:00:00+07:00</published><updated>2023-12-01T00:00:00+07:00</updated><id>https://www.gnoppix.org/blog/AI_censorship</id><content type="html" xml:base="https://www.gnoppix.org/blog/AI_censorship/"><![CDATA[<p><sub><sub><sub> by Andreas Mueller 2023-12-01 <sub><sub><sub></sub></sub></sub></sub></sub></sub></p>
+
+<h2 id="why-open-source-ai-is-crucial-for-user-privacy-freedom-and-responsible-development">Why Open-Source AI is Crucial for User Privacy, Freedom, and Responsible Development</h2>
+
+<p>In a world increasingly reliant on artificial intelligence (AI), the question of control and transparency takes center stage. While commercially developed AI holds undeniable power, open-source AI offers a compelling alternative, prioritizing user privacy, intellectual freedom, and responsible development. Let’s delve into why open-source AI is crucial, exploring the pitfalls of regulated AI through concrete examples.</p>
+
+<h1 id="transparency-and-trust-peeking-under-the-hood">Transparency and Trust: Peeking Under the Hood:</h1>
+
+<p>Open-source AI allows scrutiny. Its code is readily available for anyone to examine, understand, and audit. This promotes transparency, fostering trust between developers and users. Contrast this with closed-source AI, where algorithms operate as black boxes, leaving users in the dark about potential biases, data harvesting, or even harmful functionality. Imagine an AI-powered social media platform making content moderation decisions with an algorithm no one can access. Would you trust its judgments?</p>
+
+<h1 id="defending-privacy-avoiding-the-panopticon">Defending Privacy: Avoiding the Panopticon:</h1>
+
+<p>Privacy concerns run rampant in the realm of AI. Open-source models encourage the development of privacy-preserving techniques, anonymization methods, and decentralized data processing. This empowers users to retain control over their data, preventing the creation of invasive “panopticons” where every action is analyzed and potentially exploited. For instance, imagine a government using a closed-source AI system for facial recognition in public spaces. Would you feel comfortable knowing your movements are constantly tracked and analyzed?</p>
+
+<h1 id="democratizing-innovation-unleashing-the-collective-mind">Democratizing Innovation: Unleashing the Collective Mind:</h1>
+
+<p>Open-source AI fosters a collaborative ecosystem where anyone can contribute, learn, and build upon existing models. This democratizes innovation, leading to a diverse range of applications and solutions tailored to real-world needs. Conversely, proprietary AI concentrates power in the hands of a few, potentially limiting access and stifling creativity. Picture a scenario where only select corporations have access to AI tools for healthcare or education. Would this be fair or equitable?</p>
+
+<h1 id="regulated-ai-three-examples-of-why-control-can-fail">Regulated AI: Three Examples of Why Control Can Fail:</h1>
+
+<p>The Echo Chamber: Algorithms designed to filter “harmful” content can inadvertently create echo chambers, reinforcing existing biases and suppressing dissenting voices. Imagine an AI tool curating newsfeeds based on predefined parameters, effectively eliminating exposure to opposing viewpoints. This hinders critical thinking and fuels polarization.</p>
+
+<p>The Nanny State: Excessive regulation can stifle innovation and development, limiting the potential of AI to solve real-world problems. Imagine a scenario where every AI application requires government approval, creating a lengthy and cumbersome approval process that stifles progress.</p>
+
+<p>The Backdoor: Even well-intentioned regulations can be exploited. Governments or corporations seeking to control information may pressure developers to create backdoors in their AI systems, compromising user privacy and security. Imagine an AI-powered surveillance system designed to combat crime, but with a hidden backdoor allowing unauthorized access to user data. This raises serious ethical and privacy concerns.</p>
+
+<p>In conclusion, embracing open-source AI is not just about technical transparency, but about protecting fundamental rights and fostering responsible development. While regulations can play a role, overzealous control can backfire, stifling innovation and undermining trust. As AI continues to evolve, prioritizing open-source models and empowering users to make informed choices is crucial for a future where technology serves humanity, not the other way around. Let’s ensure that AI becomes a tool for progress, not a panopticon, and keep the future of intelligence open, transparent, and in the hands of its rightful owners: the people.</p>]]></content><author><name>Gnoppix Developers</name></author><summary type="html"><![CDATA[Gnoppix Linux AI]]></summary></entry></feed>
